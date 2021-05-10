@@ -1,0 +1,41 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table {
+    margin: 100px auto;
+}
+
+.table>caption {
+    color: blue;
+    text-align: center;
+    padding: 30px;
+}
+
+.table td {
+    border: 2px solid #0000ff;
+    padding: 10px;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: #80808080;
+    padding: 2px;
+}
+
+button:hover {
+    background-color: #808080a1;
+}
